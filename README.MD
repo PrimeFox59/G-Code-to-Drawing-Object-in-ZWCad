@@ -25,15 +25,4 @@ An integrated CNC toolpath visualization project combining an Excel-based G-code
 **Galih Primananda**  
 [LinkedIn](https://www.linkedin.com/in/galihprime) • [Instagram](https://www.instagram.com/glh_prima)
 
-## 📜 License
-This project is licensed under the MIT License – see [LICENSE](LICENSE) for details.
-"""
 
-# Tulis ulang README.md dengan versi terbaru
-with open(readme_path, "w", encoding="utf-8") as f:
-    f.write(readme_updated.strip())
-
-# Buat ulang file ZIP
-shutil.make_archive(project_root, 'zip', project_root)
-
-zip_path
